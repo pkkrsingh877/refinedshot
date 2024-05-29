@@ -4,7 +4,7 @@
   "description": "This is the backend of the RedefinedShot Photo Editor Online Application. The application is meant to provide quick way to edit their pictures so that they can upload their pictures on forms according to the requirements on the forms about the pictures.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "Photo",
@@ -23,5 +23,8 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
   }
 }
